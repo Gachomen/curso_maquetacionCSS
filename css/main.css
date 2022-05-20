@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+*{
+    font-family: 'Roboto Mono', monospace;
 
-body{
+}
+.home-body{
     margin: 0;
     padding: 0;
     position: fixed;
@@ -97,4 +100,115 @@ nav .profile-link a{
 .home-main-button a{
     font-weight: 700;
     font-size: 18px;
+}
+
+.blogs-news{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 500px;
+    width: 100%;
+    padding:0 160px;
+    background-color:#E6E9ED ;
+    padding-bottom: 40px;
+}
+.blogs-news-image{
+    width: 50%;
+}
+.blogs-news-image h2{ 
+    font-weight: bold;
+    font-size: 24px;
+}
+.blogs-news img{
+    height: 420px;
+    width: 700px;
+    
+}
+.blogs-news-side-content{
+    width: 50%;
+    margin: 80px 160px;
+}
+.blogs-news-side-content h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+.blogs-news-side-content p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.blogs-news-side-content button{
+    width: 130px;
+    height: 50px;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    border-color: #47cfac;
+}
+.blogs-news-side-content button a{
+    font-weight: 500;
+    font-size: 18px;
+}
+.blogs-title-container h2{
+    font-weight: bold;
+    font-size:24px;
+    text-align: center; 
+}
+.blogs-title-container hr{
+    margin: 0 10%;
+    background-color: #E6E9ED;
+    margin-bottom: 16px;
+}
+.blogs-container{
+    display: grid;
+    grid-template-columns: repeat(3, 425px);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 12px;
+    justify-content: center;
+}
+.blogs-item img{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 8px;
+}
+.blogs-item p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 25px;
+    margin-bottom: 28px;
+}
+.blogs-item .blogs-item-button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    border-color: #47cfac;
+    margin-bottom: 24px;
+}
+.blogs-item-button a{
+    font-weight: 500;
+    font-size: 14px;
+}
+.blogs-top-footer-line{
+    width: 100%;
+    height: 50px;
+    background-color: #47cfac;
+
+}
+.blogs-footer-container{
+    width: 100%;
+    height: 90px;
+    background-color:#22272D;
+   
+}
+.blogs-footer-container p{
+
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 35px;
 }
