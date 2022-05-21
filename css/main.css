@@ -187,3 +187,25 @@ footer p{
 .blogpost-main-container article h1{
     font-size: 32px;
 }
+.contact-main-container{
+    height: 300px;
+    width: inherit;
+    background-color: #cdd2da;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+.contact-main-container img{
+    margin: 12px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.contact-right a{
+    text-decoration: underline;
+}
+.contact-left a{
+    text-decoration: underline;
+}
+
